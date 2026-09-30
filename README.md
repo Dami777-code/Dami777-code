@@ -1,32 +1,25 @@
 # Damiyen Lane
 
-I build practical systems at the intersection of operations, automation, AI, and software.
+I build practical systems across software, AI operations, automation, and product development.
 
-My work focuses on turning messy inputs and workflows into structured systems that are understandable, testable, and useful in practice.
+My projects include a Python utility for meeting notes, a local AI environment with reproducible evaluations, and a mobile accountability prototype. I focus on making workflows useful, checking how they behave, and documenting where they still fall short.
 
-## What I build
-
-- Workflow and operations tools for intake, triage, and planning
-- Automation and small software utilities with predictable behavior
-- Mobile and product prototypes with explicit confirmation and privacy boundaries
-- AI-assisted workflows with clear human validation boundaries
-
-## Selected work
+## Selected Work
 
 ### [Meet2Action](https://github.com/Dami777-code/meet2action)
 
-A Python CLI that converts meeting notes into Markdown or JSON action checklists using deterministic, rule-based parsing. Built with Typer, tested with pytest, linted with Ruff, and packaged as an installable Python tool with GitHub Actions CI.
+A Python CLI that extracts action items from meeting notes into Markdown or JSON. The public source includes deterministic parsing, validation, package configuration, and automated tests.
 
 ### [Local AI Operator System](https://github.com/Dami777-code/local-ai-operator-system)
 
-A sanitized case study of local model evaluation, bounded document retrieval, and supervised agent workflows. Includes reproducible synthetic probes, hardware constraints, documented failures, and human validation boundaries.
+A case study of operating Hermes and Ollama on a consumer laptop. Synthetic model probes, retrieval provenance checks, and recorded agent failures show how I evaluate what the system can actually do.
 
 ### [Forge the Day](https://github.com/Dami777-code/forge-the-day-case-study)
 
-A mobile product case study covering React Native / Expo, persistent SQLite state, explicit commitment confirmation, voice lifecycle debugging, and privacy-conscious design. An unfinished private prototype, with testing evidence and remaining validation clearly separated.
+A React Native / Expo case study covering durable SQLite state, user confirmation, and an Android recording-lifecycle bug. The app remains an unfinished private prototype; the public material explains the engineering and testing.
 
-## Tools
+## Tools / Areas
 
-Python · TypeScript · SQL / SQLite · Git / GitHub  
-Streamlit · React Native / Expo · pytest · Jest · GitHub Actions
+Python · TypeScript · SQLite · React Native / Expo · Hermes / Ollama
 
+CLI tools · local AI evaluation · pytest / Jest · GitHub Actions
