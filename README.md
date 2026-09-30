@@ -21,7 +21,9 @@ A Python CLI that converts meeting notes into Markdown or JSON action checklists
 
 A sanitized case study of local model evaluation, bounded document retrieval, and supervised agent workflows. Includes reproducible synthetic probes, hardware constraints, documented failures, and human validation boundaries.
 
-Additional case studies from private projects are being prepared.
+### [Forge the Day](https://github.com/Dami777-code/forge-the-day-case-study)
+
+A mobile product case study covering React Native / Expo, persistent SQLite state, explicit commitment confirmation, voice lifecycle debugging, and privacy-conscious design. An unfinished private prototype, with testing evidence and remaining validation clearly separated.
 
 ## Tools
 
